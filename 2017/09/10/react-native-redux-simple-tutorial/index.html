@@ -95,12 +95,12 @@
 
 
 
-<meta name="description" content="一、React-Native介绍简介：React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的UI框架 React 在原生移动应用平台的衍生产物，目前支持iOS和安卓两大平台。RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用。React-native特点：1、React Native使你能够">
+<meta name="description" content="点击此处修改文章 一、React-Native介绍简介：React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的UI框架 React 在原生移动应用平台的衍生产物，目前支持iOS和安卓两大平台。RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用。React-native特点：1、React N">
 <meta property="og:type" content="article">
-<meta property="og:title" content="react-native-redux 简易教程">
+<meta property="og:title" content="react-native+redux 简易教程">
 <meta property="og:url" content="http://yoursite.com/2017/09/10/react-native-redux-simple-tutorial/index.html">
 <meta property="og:site_name" content="Charles">
-<meta property="og:description" content="一、React-Native介绍简介：React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的UI框架 React 在原生移动应用平台的衍生产物，目前支持iOS和安卓两大平台。RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用。React-native特点：1、React Native使你能够">
+<meta property="og:description" content="点击此处修改文章 一、React-Native介绍简介：React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的UI框架 React 在原生移动应用平台的衍生产物，目前支持iOS和安卓两大平台。RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用。React-native特点：1、React N">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/2017/09/10/react-native-redux-simple-tutorial/project-structure.png">
 <meta property="og:image" content="http://yoursite.com/2017/09/10/react-native-redux-simple-tutorial/rn-lifecycle.jpg">
@@ -109,10 +109,10 @@
 <meta property="og:image" content="http://yoursite.com/2017/09/10/react-native-redux-simple-tutorial/react-redux-state-flow.png">
 <meta property="og:image" content="http://yoursite.com/2017/09/10/react-native-redux-simple-tutorial/action-state.png">
 <meta property="og:image" content="http://yoursite.com/2017/09/10/react-native-redux-simple-tutorial/react-redux-flow.png">
-<meta property="og:updated_time" content="2017-09-10T08:31:51.646Z">
+<meta property="og:updated_time" content="2017-09-10T09:49:23.205Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="react-native-redux 简易教程">
-<meta name="twitter:description" content="一、React-Native介绍简介：React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的UI框架 React 在原生移动应用平台的衍生产物，目前支持iOS和安卓两大平台。RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用。React-native特点：1、React Native使你能够">
+<meta name="twitter:title" content="react-native+redux 简易教程">
+<meta name="twitter:description" content="点击此处修改文章 一、React-Native介绍简介：React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的UI框架 React 在原生移动应用平台的衍生产物，目前支持iOS和安卓两大平台。RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用。React-native特点：1、React N">
 <meta name="twitter:image" content="http://yoursite.com/2017/09/10/react-native-redux-simple-tutorial/project-structure.png">
 
 
@@ -149,7 +149,7 @@
 
 
 
-  <title>react-native-redux 简易教程 | Charles</title>
+  <title>react-native+redux 简易教程 | Charles</title>
   
 
 
@@ -263,7 +263,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">react-native-redux 简易教程</h1>
+          <h1 class="post-title" itemprop="name headline">react-native+redux 简易教程</h1>
         
 
         <div class="post-meta">
@@ -313,7 +313,8 @@
       
 
       
-        <h3 id="一、React-Native介绍"><a href="#一、React-Native介绍" class="headerlink" title="一、React-Native介绍"></a>一、React-Native介绍</h3><p><strong>简介：</strong><br>React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的UI框架 React 在原生移动应用平台的衍生产物，目前支持iOS和安卓两大平台。RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用。<br><strong>React-native特点：</strong><br>1、React Native使你能够在Javascript和React的基础上获得完全一致的开发体验，构建世界一流的原生APP。<br>2、React Native着力于提高多平台开发的开发效率 —— 仅需学习一次，编写任何平台。(Learn once, write anywhere)<br><strong>React Native比起标准Web开发或原生开发能够带来的三大好处：</strong><br>1、手势识别：基于Web技术（HTML5/JavaScript）构建的移动应用经常被抱怨缺乏及时响应。而基于原生UI的React Native能避免这些问题从而实现实时响应。<br>2、原生组件：使用HTML5/JavaScript实现的组件比起原生组件总是让人感觉差一截，而React Native由于采用了原生UI组件自然没有此问题。<br>3、样式和布局：iOS、Android和基于Web的应用各自有不同的样式和布局机制。React Native通过一个基于FlexBox的布局引擎在所有移动平台上实现了一致的跨平台样式和布局方案。</p>
+        <p><a href="https://github.com/DaiQing-Zha/pageSource/blob/master/_posts/react-native-redux-simple-tutorial.md" target="_blank" rel="external">点击此处修改文章</a></p>
+<h3 id="一、React-Native介绍"><a href="#一、React-Native介绍" class="headerlink" title="一、React-Native介绍"></a>一、React-Native介绍</h3><p><strong>简介：</strong><br>React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的UI框架 React 在原生移动应用平台的衍生产物，目前支持iOS和安卓两大平台。RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用。<br><strong>React-native特点：</strong><br>1、React Native使你能够在Javascript和React的基础上获得完全一致的开发体验，构建世界一流的原生APP。<br>2、React Native着力于提高多平台开发的开发效率 —— 仅需学习一次，编写任何平台。(Learn once, write anywhere)<br><strong>React Native比起标准Web开发或原生开发能够带来的三大好处：</strong><br>1、手势识别：基于Web技术（HTML5/JavaScript）构建的移动应用经常被抱怨缺乏及时响应。而基于原生UI的React Native能避免这些问题从而实现实时响应。<br>2、原生组件：使用HTML5/JavaScript实现的组件比起原生组件总是让人感觉差一截，而React Native由于采用了原生UI组件自然没有此问题。<br>3、样式和布局：iOS、Android和基于Web的应用各自有不同的样式和布局机制。React Native通过一个基于FlexBox的布局引擎在所有移动平台上实现了一致的跨平台样式和布局方案。</p>
 <h3 id="二、环境搭建"><a href="#二、环境搭建" class="headerlink" title="二、环境搭建"></a>二、环境搭建</h3><p>参考资料：<br>1、<a href="http://www.jianshu.com/p/03a76b2e7e00" target="_blank" rel="external">Node.js安装及环境配置之Windows篇</a><br>2、<a href="http://m.blog.csdn.net/M075097/article/details/76551303" target="_blank" rel="external">Windows下RN环境搭建及官方Demo运行</a></p>
 <h3 id="三、Android中集成React-Native"><a href="#三、Android中集成React-Native" class="headerlink" title="三、Android中集成React-Native"></a>三、Android中集成React-Native</h3><p>参考资料：<br><a href="http://blog.csdn.net/u013718120/article/details/55050900?locationNum=15&amp;fps=1" target="_blank" rel="external">Android原生项目集成React Native</a>  </p>
 <p>详细步骤如下：<br>1、创建Android工程：ImitateZhiHu<br>2、工程创建完毕后，切换到Android Studio的terminal命令行窗口，执行npm init命令，将工程初始化为一个react-native工程（<strong>npm init 会生成package.json文件，即RN的配置文，一个文件要被其它模块作为工具包引用，一定要有个package.json</strong>）  </p>
